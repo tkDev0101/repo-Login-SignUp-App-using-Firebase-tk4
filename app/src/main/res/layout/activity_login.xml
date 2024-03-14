@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvLoginTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:text="@string/LOGIN_SCREEN"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="40sp"
+        android:textColor="#203354"
+        android:fontFamily="tahoma"/>
+
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+
+        android:hint="@string/Enter_Email"
+        android:inputType="textEmailAddress"
+
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        android:importantForAutofill="no"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="300dp"
+
+        android:hint="@string/Enter_Password"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="428dp"
+        android:importantForAutofill="no"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="500dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="16dp"
+        android:text="@string/LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="549dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/tvSignUpLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginHorizontal="70dp"
+
+        android:fontFamily="tahoma"
+        android:gravity="center"
+        android:text="@string/Not_Registered_Yet_Sign_Up"
+        android:textColor="#203354"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

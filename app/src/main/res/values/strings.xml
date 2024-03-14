@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Login-SignUp-App-using-Firebase-tk4</string>
+    <string name="Not_Registered_Yet_Sign_Up">Not_Registered_Yet_Sign_Up</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="Enter_Password">Enter_Password</string>
+    <string name="Enter_Email">Enter_Email</string>
+    <string name="LOGIN_SCREEN">LOGIN_SCREEN</string>
+    <string name="Already_Registered_LOGIN">Already_Registered_LOGIN</string>
+    <string name="SIGN_UP">SIGN_UP</string>
+    <string name="Confirm_Your_Password">Confirm_Your_Password</string>
+    <string name="Enter_password">Enter_password</string>
+    <string name="Enter_email">Enter_email</string>
+    <string name="SIGN_UP_SCREEN">SIGN_UP_SCREEN</string>
+</resources>

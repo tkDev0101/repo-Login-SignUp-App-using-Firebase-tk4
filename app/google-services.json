@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250122156964",
+    "project_id": "login-signup-app-firebase-tk4",
+    "storage_bucket": "login-signup-app-firebase-tk4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250122156964:android:6462457c29af6f796c9f31",
+        "android_client_info": {
+          "package_name": "com.example.login_signup_app_using_firebase_tk4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACMlMdu6EavasRFe1LVyJ9XfocTbUGBX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
