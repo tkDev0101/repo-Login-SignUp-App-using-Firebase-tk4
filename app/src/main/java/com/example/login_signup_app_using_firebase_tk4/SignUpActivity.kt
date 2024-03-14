@@ -56,7 +56,7 @@ class SignUpActivity : AppCompatActivity() {
                             if(it.isSuccessful){
 
 
-                                Toast.makeText(this, "Successful Sign Up ->> LoginActivity", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(this, "Successful Sign Up ->>>> LoginActivity", Toast.LENGTH_SHORT).show()
                                 val intent = Intent(this@SignUpActivity, LoginActivity::class.java)
                                 startActivity(intent)
 
